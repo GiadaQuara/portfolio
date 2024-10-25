@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Portfolio</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: #4a4a4a;
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+    }
+
+    header, nav, section, footer {
+      padding: 20px;
+      margin: auto;
+      max-width: 1200px;
+    }
+
+    header {
+      text-align: center;
+    }
+
+    nav a {
+      color: #8b8b8b;
+      text-decoration: none;
+      margin: 0 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #b5d1cf;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .post {
+      background: #f9f9f9;
+      border: 1px solid #dcdcdc;
+      border-radius: 8px;
+      padding: 20px;
+      width: calc(33% - 40px);
+    }
+
+    .post h2 {
+      color: #111111;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      font-size: 0.8em;
+      color: #8b8b8b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome to My Portfolio</h1>
+    <p>Your subtitle or description here.</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="container" id="projects">
+    <div class="post">
+      <h2>Project Title</h2>
+      <p>A brief description of the project.</p>
+      <a href="project-link.html">Read more</a>
+    </div>
+    <!-- Add more project divs as needed -->
+  </section>
+
+  <footer>
+    <p>&copy; 2024 Your Name. All rights reserved.</p>
+  </footer>
+</body>
+</html>
